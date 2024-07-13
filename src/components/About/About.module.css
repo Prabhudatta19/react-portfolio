@@ -79,12 +79,20 @@
     flex-direction: column;
   }
 
+  .title{
+    font-size: 4vw;
+  }
+
+  .aboutItem p {
+    font-size: 2.7vw;
+  }
+
   .aboutImage {
     display: none;
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 2vw;
   }
 
   .aboutItem {

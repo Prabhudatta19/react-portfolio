@@ -58,7 +58,15 @@
     align-items: center;
   }
 
+  .text h2{
+    font-size: 4vw;
+  }
+
   .links {
     align-items: start;
+  }
+
+  .link a{
+    font-size: 3vw;
   }
 }

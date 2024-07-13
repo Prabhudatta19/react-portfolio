@@ -118,4 +118,30 @@
     width: 100%;
     gap: 9px;
   }
+
+  .historyItem {
+    flex-direction: column;
+  }
+
+  .title{
+    font-size: 4vw;
+  }
+
+  .historyItemDetails{
+    text-align: center;
+  }
+
+  .historyItemDetails h3{
+    font-size: 3.5vw;
+  }
+  
+  .historyItemDetails p{
+    font-size: 2.4vw;
+  }
+
+  .historyItemDetails ul{
+    text-align: start;
+    font-size: 2.7vw;
+    margin-left: 1vw;
+  }
 }

@@ -70,4 +70,20 @@
   .container{
     width: 100%;
   }
+
+  .title{
+    font-size: 3.5vw;
+  }
+
+  .description{
+    font-size: 2.65vw;
+  }
+
+  .skill{
+    font-size: 2vw;
+  }
+
+  .link{
+    font-size: 2.65vw;
+  }
 }

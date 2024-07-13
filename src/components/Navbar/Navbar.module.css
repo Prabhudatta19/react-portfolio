@@ -44,6 +44,10 @@
     align-items: flex-start;
   }
 
+  .title{
+    font-size: 4vw;
+  }
+
   .menu {
     position: absolute;
     right: 0;
@@ -78,5 +82,9 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .menuItems a {
+    font-size: 3.5vw;
   }
 }

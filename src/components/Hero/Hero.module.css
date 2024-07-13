@@ -109,4 +109,16 @@
   .content {
     align-items: center;
   }
+
+  .title {
+    font-size: 5vw;
+  }
+
+  .description {
+    font-size: 3vw;
+  }
+
+  .contactBtn{
+    font-size: 3vw;
+  }
 }

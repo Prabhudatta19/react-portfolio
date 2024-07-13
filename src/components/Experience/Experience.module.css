@@ -57,7 +57,7 @@
 }
 
 .history {
-  width: 45%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -83,19 +83,19 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 25px;
+  font-size: 1.3rem;
   list-style-type: disc;
   margin-left: 17px;
 }

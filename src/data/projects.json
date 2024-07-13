@@ -1,18 +1,24 @@
 [
   {
-    "title": "Project A",
+    "title": "Hitsory-Search",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This web-app(SPA) provides an user interface to search for top 10 related historical events and figures using public APIs",
+    "skills": ["React", "Vite", "Node"],
+    "demo": "https://history-search.vercel.app/",
+    "source": "https://github.com/Prabhudatta19/history-search"
   },
   {
-    "title": "Project B",
+    "title": "Weather-App",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This web-app(SPA) provides an user interface to view weather at current location and searched location using openweather APIs",
+    "skills": ["React", "Express", "Node"],
+    "demo": "/",
+    "source": "https://github.com/Prabhudatta19/another-weather-app"
+  },
+  {
+    "title": "Pneumonia Detection from Chest X-rays",
+    "imageSrc": "projects/project.png",
+    "description": "Achieved State of the Art performance (accuracy and recall upto 0.9 and 0.85 respectively) in detecting pneumonia from Chest X-rays using novel SPINALNET",
+    "skills": ["Deep Learning", "SPINALNET", "CNN", "Python"]
   }
 ]

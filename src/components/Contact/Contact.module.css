@@ -2,18 +2,18 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
+  margin-top: 10%;
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 5% 10%;
   gap: 10px;
 }
 
 .text h2 {
-  font-size: 3.5rem;
+  font-size: 2.5vw;
   font-weight: 700;
   letter-spacing: 4px;
 }
@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 1vw;
 }
 
 .link {
@@ -41,7 +41,7 @@
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2.3vw;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
@@ -49,7 +49,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 2.5vw;
   }
 
   .text {
@@ -59,6 +59,6 @@
   }
 
   .links {
-    align-items: center;
+    align-items: start;
   }
 }

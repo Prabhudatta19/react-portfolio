@@ -1,6 +1,6 @@
 [
   {
-    "title": "Hitsory-Search",
+    "title": "History-Search",
     "imageSrc": "projects/project.png",
     "description": "This web-app(SPA) provides an user interface to search for top 10 related historical events and figures using public APIs",
     "skills": ["React", "Vite", "Node"],

@@ -24,14 +24,14 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      {demo && source && <div className={styles.links}>
-        <a href={demo} className={styles.link} target="_blank">
-          Live
-        </a>
-        <a href={source} className={styles.link} target="_blank">
+      <div className={styles.links}>
+        {source && <a href={source} className={styles.link} target="_blank">
           Code
-        </a>
-      </div>}
+        </a>}
+        {demo && <a href={demo} className={styles.link} target="_blank">
+          Live
+        </a>}
+      </div>
     </div>
   );
 };

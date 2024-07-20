@@ -15,6 +15,13 @@
     "source": "https://github.com/Prabhudatta19/another-weather-app"
   },
   {
+    "title": "Coding-Contests-Schedule",
+    "imageSrc": "projects/project.png",
+    "description": "A chrome extension to show the schedule of current and active coding contests",
+    "skills": ["React", "Node", "TypeScript"],
+    "source": "https://github.com/Prabhudatta19/coding-contests-ext"
+  },
+  {
     "title": "Pneumonia Detection from Chest X-rays",
     "imageSrc": "projects/pneumonia.png",
     "description": "Achieved State of the Art performance (accuracy and recall upto 0.9 and 0.85 respectively) in detecting pneumonia from Chest X-rays using novel SPINALNET",

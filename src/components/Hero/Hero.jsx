@@ -11,9 +11,15 @@ export const Hero = () => {
         <p className={styles.description}>
           a Software Engineer with 2 years of enterprise experience
         </p>
-        <a href="mailto:prabhudatta.prof@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className="d-flex">
+          <a href="mailto:prabhudatta.prof@gmail.com" className={styles.contactBtn}>
+            Contact Me
+          </a>
+          <a href="/Prabhudatta_Mohapatra_CV.pdf" download="Prabhudatta_Mohapatra_CV.pdf" className={styles.downloadBtn}>
+            Resume<i className="bi bi-download mx-2"></i>
+          </a>
+        </div>
+        
       </div>
       <img
         src={getImageUrl("hero/about2.png")}
